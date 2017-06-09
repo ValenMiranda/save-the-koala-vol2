@@ -1,0 +1,134 @@
+.first-section{
+	background-image: url('../img/portada.jpg');
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.navbar{
+	position: absolute;
+	padding-right: 2em;
+}
+
+.navlogo{
+	text-shadow: 1px 1px 1px #aaa;
+	color: white;
+	margin-left: 2em;
+	padding: 5px;
+	float: left;
+}
+
+.nav li a{
+	color: whitesmoke;
+	text-shadow: 1px 1px 1px #aaa;
+}
+
+.nav li a:hover{
+	color: white;
+	text-shadow: none;
+}
+
+#save{
+	padding: 16.5em 6.5em;
+	color: whitesmoke;
+}
+
+#save h3{
+	font-size: 2em;
+}
+
+.img3{
+	margin-top: 4em;
+	margin-bottom: 6.5em;
+}
+
+.text-dos {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.text-dos p,
+.text-dos h5{
+	color: gray;
+}
+
+.section-dos, .seemore{
+	color: #A69C67;
+}
+
+.third-section{
+	background-color: #A89F68;
+}
+
+.text-small,
+.text-tres{
+	color: white;
+}
+
+.section-tres{
+	color: #41521F;
+}
+
+.texto-tres{
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+
+.koala-cosita{
+	border: 8px solid white;
+	margin-bottom: 5em;
+	text-align: center;
+}
+
+.fourth-section{
+	background-image: url('../img/all.jpg');
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: white;
+}
+
+.fifth-section{
+	color: #A89F68;
+	padding-bottom: 2em;
+}
+
+.fifth-section p{
+	color: gray;
+}
+
+.text-icon{
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+
+.fa-heart, 
+.fa-globe, 
+.fa-paw{
+	font-size: 8em;
+	padding-bottom: 20px;
+}
+
+.fa-heart:hover, 
+.fa-globe:hover, 
+.fa-paw:hover{
+	color: #41521F;
+}
+
+footer{
+	background-color: #41521F;
+}
+
+footer h4,
+footer a,
+footer ul li{
+	color: #A89F68;
+}
+
+footer ul{
+	list-style: none;
+	padding-left: 6.5em;
+}
+
