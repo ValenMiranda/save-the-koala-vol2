@@ -132,3 +132,31 @@ footer ul{
 	padding-left: 6.5em;
 }
 
+.sixth-section{
+	background-color: #A89F68;
+	padding: 100px;
+}
+
+.sixth-section h1{
+	font-size: 6em;
+	color: whitesmoke;
+}
+
+.sixth-section sup, .sixth-section sub{
+	font-size: 15px;
+}
+
+.sixth-section sup{
+	top: -3em;
+}
+
+.sixth-section p{
+	color: #333;
+}
+
+.cuadro{
+	background-color: #41521F;
+	color: whitesmoke;
+	margin-top: 5px;
+	padding: 10px;
+}

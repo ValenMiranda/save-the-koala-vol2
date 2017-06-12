@@ -31,7 +31,7 @@
 				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">			
 					<h3 class="title-first">Save The Koala</h3>
 					<p>Koalas are declining in rapid numbers because the trees where they spend a majority of their time are being quickly chopped down. Activists need to take action to try and protect these animals’ habitats so they do not become a thing of the past.</p>
-					<button type="button" class="btn btn-default greenbtn" data-toggle="tooltip" data-placement="bottom" title="Hola soy un boton"><b>See More</b></button
+					<button type="button" class="btn btn-success greenbtn" data-toggle="tooltip" data-placement="bottom" title="Hola soy un boton"><b>See More</b></button
 				</div>
 			</div>
 		</div>
@@ -76,8 +76,20 @@
                         <h4 class="section-tres">Save Koalas From Possible Extinction!</h4>
                         <p class="text-tres text-justify">Loss of koala habitat is the major threat facing koalas today. Since white settlement of Australia, roughly 80% of the koala’s habitat has been destroyed and of what remains, most occurs on privately owned land and almost none
                             is protected.</p>
-                        <a href="#" class="btn btn-success">Read more</a>
-                    </div>
+                        <button type="button" class="btn btn-success greenbtn btn-success" data-toggle="modal" data-target="#myModal"><b>Read more</b></button>	
+					</div>
+                    <div id="myModal" class="modal fade" role="dialog">
+					  <div class="modal-dialog">
+					    <div class="modal-content">
+					      <div class="modal-header">					    
+					        <h4 class="modal-title h4error">ERROR 400</h4>
+					      </div>
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-default greenbtn" data-dismiss="modal">Close</button>
+					      </div>
+					    </div>
+					  </div>
+					</div>
                     <div class="col-lg-6 info-section-tres">
                         <img class="img-responsive koala-cosita" src="img/cosita.jpg" alt="koala-cosita">
                     </div>
@@ -119,6 +131,79 @@
 			</div>
 		</div>
 	</section>
+
+	<!-- sexta seccion -->
+	<section class="sixth-section text-center">
+		<div class="container-fluid">
+			<div class="row">
+			<h3>It’s not hard to see how we can help.</h3>
+				<div class="col-xs-12 col-md-4">
+					<h6><b>PERSONAL</b></h6>
+					<h1><sup>$</sup>19<sub>/AUD</sub></h1>
+					<p>Save 1 Koala per month.</p>
+					<hr>
+					<p><b>1</b> T-shirt</p>
+					<hr>
+					<p><b>1</b> visits per month</p>
+					<hr>
+					<p><b>Public</b> API access</p>
+					<button type="button" class="btn btn-default btn-success" data-toggle="modal" data-target="#myModal"><b>DONATE</b></button>
+					
+					<div id="myModal" class="modal fade" role="dialog">
+					  <div class="modal-aviso">					    
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <h4 class="modal-title">Tu donación se realizó con exito!</h4>
+					      </div>
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+					      </div>
+					    </div>
+					  </div>
+					</div>	
+				</div>
+				<div class="col-xs-12 col-md-4">
+					<h6><b>GROUPS</b></h6>
+					<h1><sup>$</sup>29<sub>/AUD</sub></h1>
+					<p>Save 2 Koala per month.</p>
+					<hr>
+					<p><b>2</b> T-shirt</p>
+					<hr>
+					<p><b>2</b> visits per month</p>
+					<hr>
+					<p><b>Public</b> API access</p>
+					<button type="button" class="btn btn-default btn-success" data-toggle="modal" data-target="#myModal""><b>DONATE</b></button>
+					<div id="myModal" class="modal fade" role="dialog">
+					  <div class="modal-dialog">
+					    <!-- Modal content-->
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <h4 class="modal-title">Tu donación se realizó con exito!</h4>
+					      </div>
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					      </div>
+					    </div>
+					  </div>
+					</div>	
+				</div>
+				<div class="col-xs-12 col-md-4">
+					<h6><b>COMPANIES</b></h6>
+					<h1><sup>$</sup>59<sub>/AUD</sub></h1>
+					<p>Save 3 Koala per month.</p>
+					<hr>
+					<p><b>3</b> T-shirt</p>
+					<hr>
+					<p><b>3</b> visits per month</p>
+					<hr>
+					<p><b>Public</b> API access</p>
+					<button type="button" class="btn btn-default btn-success" data-toggle="collapse" data-target="#demo"><b>DONATE</b></button>
+					<div id="demo" class="collapse cuadro">Por el momento no podemos realizar tu solicitud.</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
 
 	<!-- septima seccion -->
 	<footer>
